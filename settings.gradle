@@ -1,0 +1,2 @@
+rootProject.name = "facial-features-detection"
+include ':app'
