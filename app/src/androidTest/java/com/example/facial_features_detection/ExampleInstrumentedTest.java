@@ -40,7 +40,7 @@ public class ExampleInstrumentedTest {
 
     @Test
     public void testFaceDetection() throws IOException {
-        FacialDetection facialDetection = new FacialDetection(new FaceDetectedImpl());
+        FaceDetectionFragment facialDetection = new FaceDetectionFragment();
         facialDetection.testClass();
     }
 
